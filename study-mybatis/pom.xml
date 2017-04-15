@@ -1,0 +1,38 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.yovee.study</groupId>
+  <artifactId>study-mybatis</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <properties>
+		<!-- 主要依赖库的版本定义 -->
+		<iuap.modules.version>2.0.1-RELEASE</iuap.modules.version>
+
+		<spring.version>4.0.5.RELEASE</spring.version>
+		<mysql.version>5.1.22</mysql.version>
+		<!-- Plugin的属性 -->
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<java.version>1.7</java.version>
+		<jetty.version>8.1.16.v20140903</jetty.version>
+		<mybatis.version>3.2.4</mybatis.version>
+	</properties>
+  
+  <dependencies>
+  
+	<dependency>
+		<groupId>org.mybatis</groupId>
+		<artifactId>mybatis</artifactId>
+		<version>${mybatis.version}</version>
+	</dependency>
+ 	 <dependency>
+		<groupId>mysql</groupId>
+		<artifactId>mysql-connector-java</artifactId>
+		<version>${mysql.version}</version>
+	</dependency>
+    <dependency>
+	  <groupId>org.testng</groupId>
+	  <artifactId>testng</artifactId>
+	  <version>6.8</version>
+	  <scope>test</scope>
+	</dependency>
+  </dependencies>
+</project>

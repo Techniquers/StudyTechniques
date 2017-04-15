@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="exp13">
+	<listeners>
+		<listener class-name="exp13.CustomReporter" />
+	</listeners>
+	<test name="Simple Reporter test">
+		<classes>
+			<class name="exp13.SampleTest" />
+		</classes>
+	</test>
+</suite>

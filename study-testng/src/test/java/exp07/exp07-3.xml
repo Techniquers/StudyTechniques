@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="exp07-3">
+    <test name="test1">
+        <groups>
+         <define name="all">
+	    <exclude name="functest"/>
+	    <include name="checkintest"/>
+	 </define>
+	 <run>
+	    <include name="all"/>
+	 </run>
+   	 </groups>
+	 <classes>
+	      <class name="exp07.GroupTestExample" />
+	</classes>
+    </test>
+</suite>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="exp11">
+     <test name="JUnitTests" junit="true">
+        <classes>
+            <class name="exp11.TestJunit" />
+        </classes>
+    </test>
+</suite>
+
