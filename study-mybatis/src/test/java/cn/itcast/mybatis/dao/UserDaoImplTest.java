@@ -1,43 +1,33 @@
 package cn.itcast.mybatis.dao;
 
-import java.io.IOException;
-import java.io.InputStream;
-
-import org.apache.ibatis.io.Resources;
-import org.apache.ibatis.session.SqlSessionFactory;
-import org.apache.ibatis.session.SqlSessionFactoryBuilder;
 import org.junit.Before;
 import org.junit.Test;
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 import cn.itcast.mybatis.po.User;
 
 public class UserDaoImplTest {
 
-	// 会话工厂
-	private SqlSessionFactory sqlSessionFactory;
-
-	// 创建工厂
+	private ApplicationContext applicationContext;
 	@Before
-	public void init() throws IOException {
-
-		// 配置文件（SqlMapConfig.xml）
-		String resource = "SqlMapConfig.xml";
-
-		// 加载配置文件到输入 流
-		InputStream inputStream = Resources.getResourceAsStream(resource);
-
-		// 创建会话工厂
-		sqlSessionFactory = new SqlSessionFactoryBuilder().build(inputStream);
-
+	public void setUp() throws Exception {
+		//创建spring容器
+		
+		applicationContext = new ClassPathXmlApplicationContext("spring/applicationContext.xml");
+		
+		
 	}
 
 	@Test
 	public void testFindUserById() throws Exception {
-
-		UserDao userDao = new UserDaoImpl(sqlSessionFactory);
 		
+		//从spring容器中获取UserDao这个bean
+		
+		UserDao userDao = (UserDao) applicationContext.getBean("userDao");
 		User user = userDao.findUserById(1);
 		System.out.println(user);
+		
 		
 	}
 

@@ -1,6 +1,8 @@
 package cn.itcast.mybatis.po;
 
+import java.io.Serializable;
 import java.util.Date;
+import java.util.List;
 
 /**
  * 
@@ -11,12 +13,13 @@ import java.util.Date;
  * @date	2015-3-17上午10:00:07
  * @version 1.0
  */
-public class User {
+public class User implements Serializable {
 	private int id;
 	private String username;// 用户姓名
 	private String sex;// 性别
 	private Date birthday;// 生日
 	private String address;// 地址
+
 	
 	public int getId() {
 		return id;
@@ -48,6 +51,8 @@ public class User {
 	public void setAddress(String address) {
 		this.address = address;
 	}
+	
+
 	@Override
 	public String toString() {
 		return "User [id=" + id + ", username=" + username + ", sex=" + sex
