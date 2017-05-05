@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
+	<soapenv:Header>
+		<wsse:Security
+			xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd">
+			<wsse:UsernameToken>
+				<wsse:Username>14511</wsse:Username>
+				<wsse:UserTokenID>aaef554f598ce4af397af71bbfd291eaae63590d</wsse:UserTokenID>
+			</wsse:UsernameToken>
+		</wsse:Security>
+	</soapenv:Header>
+	<soapenv:Body>
+		<ns4:SendRequest xmlns:ns4="http://schema.egs.org.cn/exchange/exchangetransport">
+			<ns4:ToAddress>wcjc0002</ns4:ToAddress>
+			<ns4:ExchangeEvent EventID="4028805c5bb22734015bb22737520011"
+				ActionType="LOGINK_CN_FREIGHTBROKER_WAYBILL">
+				<ExchangeDataPackage xmlns="http://schema.egs.org.cn/exchange/edf"
+					packageID="4028805c5bb22734015bb22737520014" transactionID="4028805c5bb22734015bb22737520015"
+					createTime="2017-04-28T01:22:46.227Z" expireTime="2017-04-28T01:22:46.227Z"
+					title="title">
+					<ExchangeDataPackageUnit groupID="4028805c5bb22734015bb22737520019"
+						groupSize="1" sequenceInGroup="1" unitID="4028805c5bb22734015bb22737520017"
+						source="source" entityIDName="//www.wondersgroup.com"
+						entityDispName="entitydispname" createDate="2017-04-28T01:22:46.227Z"
+						expireDate="2017-04-28T01:22:46.227Z">
+						<DataFile dataFileID="www.wondersgroup.com" fileName="xml"
+							dataFileFormat="xml">
+							<Base64EncodedData>UEQ5NGJXd2dkbVZ5YzJsdmJqMGlNUzR3SWlCbGJtTnZaR2x1WnowaVZWUkdMVGdpUHo0OFVtOXZkRDQ4U0dWaFpHVnlQanhOWlhOeg0KWVdkbFVtVm1aWEpsYm1ObFRuVnRZbVZ5UG1KbFkyVTBaVGxrTFRWa1lXVXRORFUwTVMxaVpUSmxMV0k0TjJGbFpUZzFPVE5oTmp3dg0KVFdWemMyRm5aVkpsWm1WeVpXNWpaVTUxYldKbGNqNDhSRzlqZFcxbGJuUk9ZVzFsUHVhWG9PaTlwdWFKditpL2tPUzZ1dWVVdGVXdA0Ka09pM3IrV05sVHd2Ukc5amRXMWxiblJPWVcxbFBqeEViMk4xYldWdWRGWmxjbk5wYjI1T2RXMWlaWEkrTWpBeE5WZERRMWxTUEM5RQ0KYjJOMWJXVnVkRlpsY25OcGIyNU9kVzFpWlhJK1BGTmxibVJsY2tOdlpHVStNVFExTVRFOEwxTmxibVJsY2tOdlpHVStQRkpsWTJsdw0KYVdWdWRFTnZaR1UrYUdKcVl6QXdNREF4UEM5U1pXTnBjR2xsYm5SRGIyUmxQanhOWlhOellXZGxVMlZ1WkdsdVowUmhkR1ZVYVcxbA0KUGpJd01UY3dOREV4TnpBNU1qZzFPVHd2VFdWemMyRm5aVk5sYm1ScGJtZEVZWFJsVkdsdFpUNDhUV1Z6YzJGblpVWjFibU4wYVc5dQ0KUTI5a1pUNDVQQzlOWlhOellXZGxSblZ1WTNScGIyNURiMlJsUGp3dlNHVmhaR1Z5UGp4Q2IyUjVQanhQY21sbmFXNWhiRVJ2WTNWdA0KWlc1MFRuVnRZbVZ5UG5SbGMzUXdNREU4TDA5eWFXZHBibUZzUkc5amRXMWxiblJPZFcxaVpYSStQRk5vYVhCd2FXNW5UbTkwWlU1MQ0KYldKbGNqNHhNamt3TnpBd01EQTBQQzlUYUdsd2NHbHVaMDV2ZEdWT2RXMWlaWEkrUEVOaGNuSnBaWEkrNUxpdDVadTk1YVNXNkwrUQ0KNXJLejVZeVg1WVdzNVkrNFBDOURZWEp5YVdWeVBqeERiMjV6YVdkdWJXVnVkRVJoZEdWVWFXMWxQakl3TVRjd05ERXhOVEF5TWpneg0KTVR3dlEyOXVjMmxuYm0xbGJuUkVZWFJsVkdsdFpUNDhRblZ6YVc1bGMzTlVlWEJsUTI5a1pUNHhNREF6T1RrNVBDOUNkWE5wYm1Weg0KYzFSNWNHVkRiMlJsUGp4RVpYTndZWFJqYUVGamRIVmhiRVJoZEdWVWFXMWxQakl3TVRjd05ERXhOVEF5TXprek5Ud3ZSR1Z6Y0dGMA0KWTJoQlkzUjFZV3hFWVhSbFZHbHRaVDQ4UjI5dlpITlNaV05sYVhCMFJHRjBaVlJwYldVK01qQXhOekEwTVRFM01Ea3lPRFUzUEM5SA0KYjI5a2MxSmxZMlZwY0hSRVlYUmxWR2x0WlQ0OFEyOXVjMmxuYm05eVNXNW1iejQ4UTI5MWJuUnllVk4xWW1ScGRtbHphVzl1UTI5aw0KWlQ0eE1UQXhNRE04TDBOdmRXNTBjbmxUZFdKa2FYWnBjMmx2YmtOdlpHVStQQzlEYjI1emFXZHViM0pKYm1adlBqeERiMjV6YVdkdQ0KWldWSmJtWnZQanhEYjNWdWRISjVVM1ZpWkdsMmFYTnBiMjVEYjJSbFBqTXlNRFU0TXp3dlEyOTFiblJ5ZVZOMVltUnBkbWx6YVc5dQ0KUTI5a1pUNDhMME52Ym5OcFoyNWxaVWx1Wm04K1BGQnlhV05sU1c1bWJ6NDhWRzkwWVd4TmIyNWxkR0Z5ZVVGdGIzVnVkRDR4TURBdw0KTGpBd01Ed3ZWRzkwWVd4TmIyNWxkR0Z5ZVVGdGIzVnVkRDQ4TDFCeWFXTmxTVzVtYno0OFZtVm9hV05zWlVsdVptOCtQRXhwWTJWdQ0KYzJWUWJHRjBaVlI1Y0dWRGIyUmxQakF4UEM5TWFXTmxibk5sVUd4aGRHVlVlWEJsUTI5a1pUNDhWbVZvYVdOc1pVNTFiV0psY2o3bw0KaTQ5Rk5UVTFOVFU4TDFabGFHbGpiR1ZPZFcxaVpYSStQRlpsYUdsamJHVkRiR0Z6YzJsbWFXTmhkR2x2YmtOdlpHVStiblZzYkR3dg0KVm1Wb2FXTnNaVU5zWVhOemFXWnBZMkYwYVc5dVEyOWtaVDQ4Vm1Wb2FXTnNaVlJ2Ym01aFoyVStOQzR3TUR3dlZtVm9hV05zWlZSdg0KYm01aFoyVStQRkp2WVdSVWNtRnVjM0J2Y25SRFpYSjBhV1pwWTJGMFpVNTFiV0psY2o0eU16UTBOVFkzTmpVMU5Ud3ZVbTloWkZSeQ0KWVc1emNHOXlkRU5sY25ScFptbGpZWFJsVG5WdFltVnlQanhIYjI5a2MwbHVabTgrUEVSbGMyTnlhWEIwYVc5dVQyWkhiMjlrY3o3cA0KaFkza3U3WThMMFJsYzJOeWFYQjBhVzl1VDJaSGIyOWtjejQ4UTJGeVoyOVVlWEJsUTJ4aGMzTnBabWxqWVhScGIyNURiMlJsUGprdw0KUEM5RFlYSm5iMVI1Y0dWRGJHRnpjMmxtYVdOaGRHbHZia052WkdVK1BFZHZiMlJ6U1hSbGJVZHliM056VjJWcFoyaDBQakV3TGpBdw0KTUR3dlIyOXZaSE5KZEdWdFIzSnZjM05YWldsbmFIUStQQzlIYjI5a2MwbHVabTgrUEM5V1pXaHBZMnhsU1c1bWJ6NDhMMEp2WkhrKw0KUEM5U2IyOTBQZz09</Base64EncodedData>
+						</DataFile>
+					</ExchangeDataPackageUnit>
+				</ExchangeDataPackage>
+			</ns4:ExchangeEvent>
+		</ns4:SendRequest>
+	</soapenv:Body>
+</soapenv:Envelope>
