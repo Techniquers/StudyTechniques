@@ -45,6 +45,14 @@
         <artifactId>spring-context</artifactId>
         <version>4.3.8.RELEASE</version>
     </dependency>
+    <!-- https://mvnrepository.com/artifact/org.redisson/redisson -->
+	<dependency>
+	    <groupId>org.redisson</groupId>
+	    <artifactId>redisson</artifactId>
+	    <version>3.4.1</version>
+	</dependency>
+
+    
   </dependencies>
   
 </project>
