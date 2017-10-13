@@ -13,7 +13,7 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<java.version>1.7</java.version>
 		<jetty.version>8.1.16.v20140903</jetty.version>
-		<mybatis.version>3.2.4</mybatis.version>
+		<mybatis.version>3.4.5</mybatis.version>
 	</properties>
   
   <dependencies>

@@ -1,0 +1,8 @@
+Manifest-Version: 1.0
+Implementation-Title: study-ehcache
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: YOvee
+Implementation-Vendor-Id: com.yoveefisher
+Build-Jdk: 1.8.0_66
+Created-By: Maven Integration for Eclipse
+
